@@ -1,9 +1,9 @@
 == Siwei website (siwei.me)
 
-  The source code for http://siwei.me, based on Refinery cms/blog/ and other plugins.
-  The purpose of this project is to simplify the installation of Refinery CMS.
-    - pre-configured gems
-    - pre-configured file folders.
+The source code for http://siwei.me, based on Refinery cms/blog/ and other plugins.
+The purpose of this project is to simplify the installation of Refinery CMS.
+  - pre-configured gems
+  - pre-configured file folders.
 
 == Install
 
@@ -16,14 +16,16 @@
   $ bundle exec rake db:migrate
   $ bundle exec rails server
 
-  open http://localhost:3000 in your browser , you would be asked to be register a new
-  user as admin. then you can create pages/blogs/categories and other stuffs that Refinery
-  CMS provided.
+open http://localhost:3000 in your browser , you would be asked to be register a new
+user as admin. then you can create pages/blogs/categories and other stuffs that Refinery
+CMS provided.
+
+last step: create a page, and in the "page optionos", fill the field "Forward this page to another website or page " with '/',
+now you are able to open your site "http://localhost:3900" without 404 error.
 
 == Who am I
 
-  Siwei Shen, working in Beijing in Youku.com as a web developer, using Ruby/Rails since
-  2009 around.
+  Siwei Shen, working in Beijing in Youku.com as a web developer, using Ruby/Rails since 2009 around.
 
 
 
