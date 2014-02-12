@@ -1,11 +1,11 @@
 == Siwei website (siwei.me)
 
-The source code for http://siwei.me, based on Refinery cms/blog/ and other plugins.
+The source code for http://siwei.me, based on Refinery(http://refinerycms.com/) cms/blog/ and other plugins.
 The purpose of this project is to simplify the installation of Refinery CMS.
   - pre-configured gems
   - pre-configured file folders.
 
-== Install
+== Installation
 
   $ git clone git@github.com:sg552/siwei_site.git
   $ mv siwei_site <your_cms_name>
@@ -20,8 +20,13 @@ open http://localhost:3000 in your browser , you would be asked to be register a
 user as admin. then you can create pages/blogs/categories and other stuffs that Refinery
 CMS provided.
 
-last step: create a page, and in the "page optionos", fill the field "Forward this page to another website or page " with '/',
+== Configuration
+
+- create a page, and in the "page optionos", fill the field "Forward this page to another website or page " with '/',
 now you are able to open your site "http://localhost:3900" without 404 error.
+- edit config/initializers/refinery/*.rb files to modify the settings( header title or so)
+for your site.
+
 
 == Who am I
 

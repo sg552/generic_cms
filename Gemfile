@@ -9,6 +9,7 @@ gem 'rails', '3.2.7'
 gem 'mysql2'
 group :development, :test do
   gem 'sqlite3'
+  gem 'magic_encoding'
 end
 
 gem 'json'

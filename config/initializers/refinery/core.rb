@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Refinery::Core.configure do |config|
   # When true will rescue all not found errors and display a friendly error page
   config.rescue_not_found = Rails.env.production?
@@ -11,10 +12,10 @@ Refinery::Core.configure do |config|
 
   # Whenever Refinery caches anything and can set a cache key, it will add
   # a prefix to the cache key containing the string you set here.
-  # config.base_cache_key = :refinery
+  config.base_cache_key = :refinery
 
   # Site name
-  config.site_name = "Siwe's site"
+  config.site_name = "马礼堂养气功"
 
   # This activates Google Analytics tracking within your website. If this
   # config is left blank or set to UA-xxxxxx-x then no remote calls to
@@ -28,7 +29,7 @@ Refinery::Core.configure do |config|
   # config.menu_hide_children = false
 
   # CSS class selectors for menu helper
-  # config.menu_css = {:selected=>"selected", :last=>"last", :first=>"first"}
+  config.menu_css = {:selected=>"selected", :last=>"last", :first=>"first"}
 
   # Should set this if concerned about DOS attacks. See
   # http://markevans.github.com/dragonfly/file.Configuration.html#Configuration
